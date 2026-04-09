@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-n3jwrdvtd8b7w4j8c+x^$cr*ieen&$(yfql$v$#4kk7&aajyfd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -145,3 +144,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+import os
+
+SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret-key")
+DEBUG = False

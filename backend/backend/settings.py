@@ -147,5 +147,5 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 import os
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret-key")
+SECRET_KEY = os.environ.get("SECRET_KEY", "rth3o+xrcdt6v#gp7d1z*lv&ru2vc7fa3k63&i3xl0y17@o0-s")
 DEBUG = False

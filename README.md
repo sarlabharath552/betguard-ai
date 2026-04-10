@@ -55,9 +55,9 @@ BetGuard AI provides:
 ## 🏗️ System Architecture
 
 ```
-React Frontend (Vercel)
+React Frontend 
         ↓
-Django REST API (Render)
+Django REST API 
         ↓
 Machine Learning Model (NLP)
         ↓
@@ -85,7 +85,7 @@ Chrome Extension (Real-time detection)
 
 ### 🔹 Database
 
-* PostgreSQL (Render)
+* PostgreSQL 
 
 ### 🔹 Machine Learning
 

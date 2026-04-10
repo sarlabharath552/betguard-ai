@@ -85,7 +85,7 @@ Chrome Extension (Real-time detection)
 
 ### 🔹 Database
 
-* PostgreSQL 
+* This project uses SQLite for development and recommends PostgreSQL for production.
 
 ### 🔹 Machine Learning
 
@@ -186,25 +186,6 @@ This data is used to:
 * Track user behavior
 * Generate analytics
 * Provide insights
-
----
-
-## 🚀 Deployment
-
-### Backend
-
-* Hosted on Render
-* PostgreSQL database
-* Gunicorn server
-
-### Frontend
-
-* Hosted on Vercel
-* Connected to live backend API
-
-### Extension
-
-* Connected to deployed backend
 
 ---
 
